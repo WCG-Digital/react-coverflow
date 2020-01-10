@@ -20,7 +20,8 @@
   display: flex;
   justify-content: center;
   margin: 0;
-  transform-style: preserve-3d;
+  // transform-style: preserve-3d;
+  perspective: 500px;
   background-color: #FFFFFF !important;
 }
 
