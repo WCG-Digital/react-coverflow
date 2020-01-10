@@ -169,7 +169,7 @@ class Coverflow extends Component {
                         onClick={(e) => this._handlePrevFigure(e)}
                         className={`${styles.arrow} ${styles.left}`}
                       >
-                        <span/>
+                        
                       </div>
                     )}
                     {this._renderFigureNodes()}
@@ -178,7 +178,7 @@ class Coverflow extends Component {
                         onClick={(e) => this._handleNextFigure(e)}
                         className={`${styles.arrow} ${styles.right}`}
                       >
-                        <span/>
+                        
                       </div>
                     )}
                   </div>
